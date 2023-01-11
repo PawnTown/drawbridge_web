@@ -59,7 +59,7 @@
 		filter: invert(1) sepia(0) saturate(0) hue-rotate(0deg) brightness(1) contrast(1);
 		width: 24px;
 		height: 24px;
-		background-image: url("/img/github.svg");
+		background-image: url("img/github.svg");
 		background-size: contain;
 		background-repeat: no-repeat;
 		text-decoration: none;
