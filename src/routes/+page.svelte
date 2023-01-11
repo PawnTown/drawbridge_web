@@ -1,4 +1,12 @@
 <script>
+    import { onMount } from "svelte";
+
+	let os = "";
+	onMount(() => {
+		if (window.navigator.userAgent.indexOf("Win")!=-1) os="Windows";
+		if (window.navigator.userAgent.indexOf("Mac")!=-1) os="MacOS";
+		if (window.navigator.userAgent.indexOf("Linux")!=-1) os="Linux";
+	});
 </script>
 
 <svelte:head>
@@ -15,7 +23,7 @@
 	</p>
 	<div class="button-wrap">
 		<button>
-			Download for macOS
+			Download for { os ?? "Windows" }
 		</button>
 	</div>
 	<div class="screenshot">
@@ -53,6 +61,7 @@ button {
 	border-radius: 64px;
 	font-size: 18px;
 	cursor: pointer;
+	outline: none;
 }
 
 button:hover {
