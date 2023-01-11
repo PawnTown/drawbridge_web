@@ -2,7 +2,7 @@ import { sveltekit } from '@sveltejs/kit/vite';
 
 /** @type {import('vite').UserConfig} */
 const config = {
-	base: "",
+	base: "/drawbridge_web/",
 	plugins: [sveltekit()]
 };
 
