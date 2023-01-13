@@ -1,4 +1,5 @@
 <script>
+	// @ts-nocheck
     import { onMount } from "svelte";
 
 	let os = "";
@@ -7,6 +8,12 @@
 		if (window.navigator.userAgent.indexOf("Mac")!=-1) os="MacOS";
 		if (window.navigator.userAgent.indexOf("Linux")!=-1) os="Linux";
 	});
+
+	const dlinks = {
+		"Windows": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.0/drawbridge_0.0.0_x64_en-US.msi",
+		"MacOS": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.0/drawbridge_0.0.0_x64.dmg",
+		"Linux": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.0/drawbridge.app.tar.gz",
+	};
 </script>
 
 <svelte:head>
@@ -22,9 +29,9 @@
 		Available for Windows, Linux and macOS.
 	</p>
 	<div class="button-wrap">
-		<button>
+		<a href={dlinks[os ?? "Windows"] ?? ""} target="_blank" rel="noreferrer">
 			Download for { os ?? "Windows" }
-		</button>
+		</a>
 		<a target="_blank" rel="noreferrer" href="https://github.com/PawnTown/drawbridge/releases">See all available versions</a>
 	</div>
 	<div class="screenshot">
