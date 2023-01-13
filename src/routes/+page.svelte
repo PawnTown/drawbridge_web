@@ -22,6 +22,9 @@
 </svelte:head>
 
 <section>
+	<div class="logo">
+		<img src="img/logo.png" alt="DrawBridge Logo" />
+	</div>
 	<h1>Engine Cluster<br>DrawBridge</h1>
 	<p>
 		DrawBridge is a open source and free to use bridge between your chess software and your remote engine cluster.
@@ -106,6 +109,15 @@ p {
 	animation: gradient 15s ease infinite;
 	border-radius: 32px;
 	max-width: 1100px;
+}
+
+.logo {
+	margin-top: 142px;
+	text-align: center;
+}
+
+.logo img {
+	width: 240px;
 }
 
 @keyframes gradient {
