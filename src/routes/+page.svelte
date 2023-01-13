@@ -10,9 +10,9 @@
 	});
 
 	const dlinks = {
-		"Windows": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.0/drawbridge_0.0.0_x64_en-US.msi",
-		"MacOS": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.0/drawbridge_0.0.0_x64.dmg",
-		"Linux": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.0/drawbridge.app.tar.gz",
+		"Windows": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.1/drawbridge_0.0.1_x64_en-US.msi",
+		"MacOS": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.1/drawbridge_0.0.1_x64.dmg",
+		"Linux": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.1/drawbridge.app.tar.gz",
 	};
 </script>
 
