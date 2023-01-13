@@ -25,6 +25,7 @@
 		<button>
 			Download for { os ?? "Windows" }
 		</button>
+		<a target="_blank" rel="noreferrer" href="https://github.com/PawnTown/drawbridge/releases">See all available versions</a>
 	</div>
 	<div class="screenshot">
 		<img src="img/screenshot.png" alt="Screenshot of DrawBridge" />
@@ -49,8 +50,11 @@ p {
 }
 
 .button-wrap {
-	text-align: center;
 	margin-top: 64px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 button {
@@ -62,6 +66,17 @@ button {
 	font-size: 18px;
 	cursor: pointer;
 	outline: none;
+	margin-bottom: 7px;
+}
+
+a {
+	color: #7180f5;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #949ff2;
 }
 
 button:hover {
