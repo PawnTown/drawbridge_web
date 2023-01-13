@@ -143,6 +143,10 @@ p {
 		border-radius: 0;
 		margin: 84px 0 0 0;
 	}
+
+	.logo img {
+		width: 180px;
+	}
 }
 
 
