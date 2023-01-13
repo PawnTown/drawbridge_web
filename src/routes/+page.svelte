@@ -23,7 +23,7 @@
 
 <section>
 	<div class="logo">
-		<img src="img/logo.png" alt="DrawBridge Logo" />
+		<img src="img/logo-min.png" alt="DrawBridge Logo" />
 	</div>
 	<h1>Engine Cluster<br>DrawBridge</h1>
 	<p>
