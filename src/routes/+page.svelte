@@ -29,10 +29,10 @@
 		Available for Windows, Linux and macOS.
 	</p>
 	<div class="button-wrap">
-		<a href={dlinks[os ?? "Windows"] ?? ""} target="_blank" rel="noreferrer">
+		<a class="button" href={dlinks[os ?? "Windows"] ?? ""} target="_blank" rel="noreferrer">
 			Download for { os ?? "Windows" }
 		</a>
-		<a target="_blank" rel="noreferrer" href="https://github.com/PawnTown/drawbridge/releases">See all available versions</a>
+		<a class="link" target="_blank" rel="noreferrer" href="https://github.com/PawnTown/drawbridge/releases">See all available versions</a>
 	</div>
 	<div class="screenshot">
 		<img src="img/screenshot.png" alt="Screenshot of DrawBridge" />
@@ -64,7 +64,7 @@ p {
 	align-items: center;
 }
 
-button {
+.button {
 	border: none;
 	background: -webkit-linear-gradient(-44deg, #f95d7f 15%, #7180f5 84%);
 	color: white;
@@ -74,23 +74,24 @@ button {
 	cursor: pointer;
 	outline: none;
 	margin-bottom: 7px;
+	text-decoration: none;
 }
 
-a {
+.link {
 	color: #7180f5;
 	font-size: 14px;
 	text-decoration: none;
 }
 
-a:hover {
+.link:hover {
 	color: #949ff2;
 }
 
-button:hover {
+.button:hover {
 	filter: brightness(1.2);
 }
 
-button:active {
+.button:active {
 	filter: brightness(0.8);
 }
 

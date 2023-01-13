@@ -20,8 +20,8 @@
 				<a href="/sverdle">Sverdle</a>
 			</li> -->
 			<li>
-				<a class="github-img" target="_blank" rel="noreferrer" href="https://github.com/sveltejs/kit">
-					&nbsp;
+				<a class="github-img" target="_blank" rel="noreferrer" href="https://github.com/PawnTown/drawbridge">
+					<img src="img/github_logo.png" alt="GitHub Logo" />
 				</a>
 			</li>
 		</ul>
@@ -58,12 +58,19 @@
 
 	.github-img {
 		display: block;
-		filter: invert(1) sepia(0) saturate(0) hue-rotate(0deg) brightness(1) contrast(1);
+		filter: invert(1) brightness(1);
 		width: 24px;
 		height: 24px;
-		background-image: url("img/github.svg");
 		background-size: contain;
 		background-repeat: no-repeat;
 		text-decoration: none;
+	}
+
+	.github-img:hover {
+		filter: invert(1) brightness(0.8);
+	}
+
+	.github-img img {
+		width: 54px;
 	}
 </style>
