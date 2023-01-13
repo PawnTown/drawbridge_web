@@ -37,9 +37,9 @@
 		</a>
 		<a class="link" target="_blank" rel="noreferrer" href="https://github.com/PawnTown/drawbridge/releases">See all available versions</a>
 	</div>
-	<div class="screenshot">
+	<!-- <div class="screenshot">
 		<img src="img/screenshot.png" alt="Screenshot of DrawBridge" />
-	</div>
+	</div> -->
 </section>
 
 <style scoped>
@@ -60,7 +60,7 @@ p {
 }
 
 .button-wrap {
-	margin-top: 64px;
+	margin: 64px 0 25vh 0;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
