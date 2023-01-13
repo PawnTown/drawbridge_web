@@ -30,12 +30,14 @@
 
 <style>
 	header {
-		max-width: 1000px;
+		max-width: 1148px;
 		width: 100%;
 		margin: 24px auto;
+		padding: 0 24px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		box-sizing: border-box;
 	}
 
 	.logo a{

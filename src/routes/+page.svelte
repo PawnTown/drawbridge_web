@@ -112,4 +112,23 @@ button:active {
 	}
 }
 
+@media screen and (max-width: 1000px) {
+	h1 {
+		font-size: 74px;
+	}
+
+	.screenshot {
+		width: 100%;
+		box-sizing: border-box;
+		border-radius: 0;
+		margin: 84px 0 0 0;
+	}
+}
+
+
+@media screen and (max-width: 760px) {
+	h1 {
+		font-size: 44px;
+	}
+}
 </style>
