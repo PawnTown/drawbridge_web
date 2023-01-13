@@ -3,7 +3,7 @@
 
 <header>
 	<div class="logo">
-		<a href="/">
+		<a href="#">
 			DrawBridge
 		</a>
 	</div>
