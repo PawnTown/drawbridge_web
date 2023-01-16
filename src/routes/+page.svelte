@@ -2,18 +2,26 @@
 	// @ts-nocheck
     import { onMount } from "svelte";
 
+	let dlinks = {
+		"Windows": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.2/drawbridge_0.0.2_x64_en-US.msi",
+		"MacOS": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.2/drawbridge_0.0.2_x64.dmg",
+		"Linux": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.2/drawbridge.app.tar.gz",
+	};
+
 	let os = "";
 	onMount(() => {
 		if (window.navigator.userAgent.indexOf("Win")!=-1) os="Windows";
 		if (window.navigator.userAgent.indexOf("Mac")!=-1) os="MacOS";
 		if (window.navigator.userAgent.indexOf("Linux")!=-1) os="Linux";
-	});
 
-	const dlinks = {
-		"Windows": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.2/drawbridge_0.0.2_x64_en-US.msi",
-		"MacOS": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.2/drawbridge_0.0.2_x64.dmg",
-		"Linux": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.2/drawbridge.app.tar.gz",
-	};
+		fetch("https://pawntown.github.io/drawbridge_web/update.json")
+		.then(response => response.json())
+		.then(data => {
+			dlinks.MacOS = data.platforms["darwin-x86_64"].url;
+			dlinks.Linux = data.platforms["linux-x86_64"].url;
+			dlinks.Windows = data.platforms["windows-x86_64"].url;
+		});
+	});
 </script>
 
 <svelte:head>
