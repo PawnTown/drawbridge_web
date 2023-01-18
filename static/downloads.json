@@ -1,0 +1,5 @@
+{
+  "darwin-x86_64": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.4/drawbridge_0.0.4_x64.dmg",
+  "linux-x86_64": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.4/drawbridge_0.0.4_amd64.AppImage",
+  "windows-x86_64": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.4/drawbridge_0.0.4_x64_en-US.msi"
+}
