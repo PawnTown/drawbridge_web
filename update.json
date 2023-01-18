@@ -1,19 +1,19 @@
 {
-    "version": "v0.0.3",
+    "version": "v0.0.4",
     "notes": "",
     "pub_date": "2022-01-16T20:00:00Z",
     "platforms": {
       "darwin-x86_64": {
         "signature": "",
-        "url": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.3/drawbridge_0.0.3_x64.dmg"
+        "url": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.4/drawbridge.app.tar.gz"
       },
       "linux-x86_64": {
         "signature": "",
-        "url": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.3/drawbridge_0.0.3_amd64.AppImage"
+        "url": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.4/drawbridge_0.0.4_amd64.AppImage.tar.gz"
       },
       "windows-x86_64": {
         "signature": "",
-        "url": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.3/drawbridge_0.0.3_x64_en-US.msi"
+        "url": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.4/drawbridge_0.0.4_x64_en-US.msi.zip"
       }
     }
   }
