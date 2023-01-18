@@ -14,12 +14,12 @@
 		if (window.navigator.userAgent.indexOf("Mac")!=-1) os="MacOS";
 		if (window.navigator.userAgent.indexOf("Linux")!=-1) os="Linux";
 
-		fetch("https://pawntown.github.io/drawbridge_web/update.json")
+		fetch("https://pawntown.github.io/drawbridge_web/downloads.json")
 		.then(response => response.json())
 		.then(data => {
-			dlinks.MacOS = data.platforms["darwin-x86_64"].url;
-			dlinks.Linux = data.platforms["linux-x86_64"].url;
-			dlinks.Windows = data.platforms["windows-x86_64"].url;
+			dlinks.MacOS = data["darwin-x86_64"];
+			dlinks.Linux = data["linux-x86_64"];
+			dlinks.Windows = data["windows-x86_64"];
 		});
 	});
 </script>
