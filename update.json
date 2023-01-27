@@ -1,0 +1,19 @@
+{
+    "version": "v0.0.5",
+    "notes": "",
+    "pub_date": "2022-01-16T20:00:00Z",
+    "platforms": {
+      "darwin-x86_64": {
+        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcU93MHlKVHdpYUg2SG52OFN5b3BORUhFaUI5WE9ZUzBscWlYWjNqdkdkd2l4TDIvU2VXRGFhL3J4d1dNZklBNFAxb0R0S05ReTZGTnV4TEJhQ2ZCdWpZS3BGYVdIRndRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjc0ODI0MTM0CWZpbGU6ZHJhd2JyaWRnZS5hcHAudGFyLmd6Clhxbzkvb09oc25sWmRpMmtsZ0RWZXdQVjFBeXV5YVlISDYzVGEyUG9TeU82MzJ3UUVBV2hhc3k3czZkUk5ORkxuNExRckNhY0RDRUpVSzNQNUxkN0J3PT0K",
+        "url": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.5/drawbridge.app.tar.gz"
+      },
+      "linux-x86_64": {
+        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcU93MHlKVHdpYU9FSzVMdHA1ZXNpMXpkMlc3Y0tvUkY4THZYcTRoVWZjQTJDUE00UlIrVSt5VFRKRWROR0MwcS9WMVRWWkNyQ0JpaWdzQ0tCeTJqMFJIejJ1RndZR2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjc0ODIzOTQyCWZpbGU6ZHJhd2JyaWRnZV8wLjAuNV9hbWQ2NC5BcHBJbWFnZS50YXIuZ3oKWGxpWVJVMi8rNmkyb1NuYytuRm1tWjg0TGJnWkYyOUlweTUwTlBTVzRvbGdPSWNIcmI0S3RRbHNwdnQ1K01QcXJMNU1PWGN1cjlTRmp6eFJjM1VYQkE9PQo=",
+        "url": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.5/drawbridge_0.0.5_amd64.AppImage.tar.gz"
+      },
+      "windows-x86_64": {
+        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcU93MHlKVHdpYUMzTlkrUHI4NWdTUEhXR3luOTVqYlRYNitHUHMvL21NODVxOGYrN3RpU3B2Q3MycDV4bmFkWTB4MU5YWFRYc2JFait0U21BT1RDR29PeGd0TWlJSGd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjc0ODI0MDIwCWZpbGU6ZHJhd2JyaWRnZV8wLjAuNV94NjRfZW4tVVMubXNpLnppcApJd25vMG9RbE5iSVFZWFVjNndTeS9VT05wbVJaUHdpV2kwMWhPYWc2Sk1sMDY0NVAvcnBwUlpXS09TZ3Z4RmQvRjRxc2NaM08rTHpIWE9QSDJKZDRDZz09Cg==",
+        "url": "https://github.com/PawnTown/drawbridge/releases/download/app-v0.0.5/drawbridge_0.0.5_x64_en-US.msi.zip"
+      }
+    }
+  }
