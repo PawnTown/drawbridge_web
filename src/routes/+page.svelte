@@ -45,9 +45,6 @@
 		</a>
 		<a class="link" target="_blank" rel="noreferrer" href="https://github.com/PawnTown/drawbridge/releases">See all available versions</a>
 	</div>
-	<!-- <div class="screenshot">
-		<img src="img/screenshot.png" alt="Screenshot of DrawBridge" />
-	</div> -->
 </section>
 
 <style scoped>
@@ -106,19 +103,6 @@ p {
 	filter: brightness(0.8);
 }
 
-.screenshot {
-	padding: 24px;
-	height: 640px;
-	display: flex;
-	margin: 84px auto 0 auto;
-	justify-content: center;
-	background: -webkit-linear-gradient(-74deg, #f95d7f 15%, #7180f5 50%, #a1fccc 85%);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	border-radius: 32px;
-	max-width: 1100px;
-}
-
 .logo {
 	margin-top: 142px;
 	text-align: center;
@@ -143,13 +127,6 @@ p {
 @media screen and (max-width: 1000px) {
 	h1 {
 		font-size: 74px;
-	}
-
-	.screenshot {
-		width: 100%;
-		box-sizing: border-box;
-		border-radius: 0;
-		margin: 84px 0 0 0;
 	}
 
 	.logo img {

@@ -3,7 +3,7 @@
 
 <header>
 	<div class="logo">
-		<a href="#">
+		<a href="https://pawntown.github.io/drawbridge_web/">
 			DrawBridge
 		</a>
 	</div>
